@@ -1,3 +1,7 @@
+.center-align {
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex: 1;
@@ -8,10 +12,37 @@
   flex-direction: column;
 }
 
+.full-height {
+  height: 100%;
+}
+
+.logo {
+  height: 3.75em;
+  max-height: 100px;
+}
+
+.main-header {
+  max-width: 100%;
+  background-color: #d33a2c;
+  padding: 1em 2em;
+}
+
 .row {
   flex-direction: row;
 }
 
-.full-height {
-  height: 100%;
+#nav-search {
+  background: 0 0;
+  border: 3px solid white;
+  color: white;
+  border-radius: 8px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  font-size: calc(0.9em + 0.1vw);
+  font-weight: 700;
+  padding: 8px 16px;
+  white-space: nowrap;
+}
+
+#nav-search-icon {
+  margin-right: 16px;
 }
