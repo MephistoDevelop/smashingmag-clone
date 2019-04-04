@@ -1,10 +1,10 @@
-# SMASH MAG Clone
+# SMASHING MAG Clone
 
 ### HTML & CSS Course
 
 **Description**
 
-Simple SMASH MAG clone made with HMTL and CSS (Flexbox)
+Simple SMASHING MAG clone made with HMTL and CSS (Flexbox)
 
 # Learned
 
