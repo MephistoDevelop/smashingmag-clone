@@ -12,10 +12,25 @@
   flex-direction: column;
 }
 
+.text-nav {
+  font-family: Mija;
+  color: #fff;
+  text-shadow: none;
+  background: #d33a2c;
+  font-size: calc(1em + 0.6vw);
+}
 .full-height {
   height: 100%;
 }
 
+.figure-nav {
+  width: 20%;
+  margin: 0 50px;
+}
+
+.icons-nav {
+  width: 1.5em;
+}
 .logo {
   height: 3.75em;
   max-height: 100px;
