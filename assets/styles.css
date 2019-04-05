@@ -12,20 +12,37 @@
   flex-direction: column;
 }
 
-.text-nav {
+.figure-description {
+  font-style: italic;
+  text-align: center;
+  font-size: calc(0.7em + 0.15vw);
+  margin-top: 0.5em;
+  max-width: 100%;
+  margin: 10px;
+  width: 100%;
+  color: white;
+}
+
+.figure-name {
   font-family: Mija;
   color: #fff;
   text-shadow: none;
   background: #d33a2c;
   font-size: calc(1em + 0.6vw);
 }
+
+.figure-nav:hover .figure-name .figure-description {
+  color: black !important;
+}
+
 .full-height {
   height: 100%;
 }
 
 .figure-nav {
   width: 20%;
-  margin: 0 50px;
+  margin: 0 25px;
+  align-items: center;
 }
 
 .icons-nav {
