@@ -1,12 +1,17 @@
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 980px) {
   .article {
     width: 25% !important;
   }
 }
-@media screen and (min-width: 301px) {
+@media screen and (min-width: 301px) and (max-width: 989px) {
   .article {
-    width: 100% !important;
-    background-color: aqua !important;
+    min-width: 50% !important;
+  }
+  #articles-container {
+    flex-wrap: wrap;
+  }
+  #articles-container-alt {
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 300px) {
@@ -18,24 +23,47 @@
     flex-direction: column !important;
   }
 }
+
+.avatar {
+  transform: rotate(-20deg);
+  border-radius: 15px;
+  border: 6px solid #d33a2c;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
 .article {
-  background-color: blue;
-  border: 2px solid green;
+  background-color: #f6f4f7;
+  border: 1px solid white;
   min-height: 44vh;
   max-height: 55vh;
+  padding: 24px 48px;
 }
+
+.article-alt-title {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  color: #333;
+  text-shadow: none;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
+  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
+}
+
 .center-align {
   align-items: center;
 }
 
 .container {
   display: flex;
-  flex: 1;
   width: 100%;
 }
 
 .col {
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .figure-description {
@@ -72,6 +100,10 @@
   height: 100%;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .icon-nav {
   width: 1.5em;
 }
@@ -87,8 +119,48 @@
   padding: 1em 2em;
 }
 
+.main-headline {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  color: #fff;
+  text-shadow: none;
+  background: #d33a2c;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
+  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
+}
+
 .row {
   flex-direction: row;
+  min-width: 100%;
+}
+
+#articles-container {
+  margin: 24px 0;
+}
+
+#explore-membership {
+  margin-top: 50vh;
+  height: 9vh;
+  background-color: #41b14f;
+  font-size: calc(1em + 0.25vw);
+  padding: 0.75em 1em;
+  color: white;
+  min-width: 275px;
+  border-radius: 25px;
+}
+
+#main-headline-container {
+  padding: 24px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#membership-container {
+  min-height: 66vh;
+  background-color: #123456;
+  padding-left: 48px;
 }
 
 #nav-search {
@@ -105,4 +177,40 @@
 
 #nav-search-icon {
   margin-right: 16px;
+}
+
+#tv-container {
+  border-radius: 25px;
+  min-height: 66vh;
+  background-color: #d33a2c;
+  justify-content: space-around !important;
+}
+
+#tv-headline {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  color: #fff;
+  text-shadow: none;
+  background: #d33a2c;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
+  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
+}
+
+#upcoming-episodes {
+  height: 6vh;
+  background-color: white;
+  font-size: calc(1em + 0.25vw);
+  padding: 0.75em 1em;
+  color: #267dcc;
+  min-width: 275px;
+  border-radius: 25px;
+}
+
+#yellow-circle {
+  min-height: 25vh;
+  background: palegoldenrod;
+  border-radius: 100px;
+  width: 100%;
+  max-width: 25vh;
 }
