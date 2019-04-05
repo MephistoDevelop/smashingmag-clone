@@ -16,38 +16,40 @@
   font-style: italic;
   text-align: center;
   font-size: calc(0.7em + 0.15vw);
-  margin-top: 0.5em;
+  margin: 0.2em auto;
   max-width: 100%;
-  margin: 10px;
-  width: 100%;
   color: white;
 }
 
 .figure-name {
-  font-family: Mija;
+  font-family: "Ubuntu", sans-serif;
   color: #fff;
   text-shadow: none;
   background: #d33a2c;
   font-size: calc(1em + 0.6vw);
 }
 
-.figure-nav:hover .figure-name .figure-description {
-  color: black !important;
+.figure-nav {
+  padding: 8px 0;
+  width: 25%;
+  min-height: 18vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.figure-nav:hover p {
+  color: #333 !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
 
 .full-height {
   height: 100%;
 }
 
-.figure-nav {
-  width: 20%;
-  margin: 0 25px;
-  align-items: center;
-}
-
-.icons-nav {
+.icon-nav {
   width: 1.5em;
 }
+
 .logo {
   height: 3.75em;
   max-height: 100px;
