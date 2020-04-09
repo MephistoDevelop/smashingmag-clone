@@ -37,7 +37,7 @@ This basicaly only a web page with only one HTML file you will only need to open
 
 👤 **Diego Roblez Vergara. - NOINCOMEDEV**
 
-- Github: [@noincomedev](https://www.github.com/noincomedev)/cristian-hernandez1992/)
+- Github: [@noincomedev](https://www.github.com/noincomedev)
 
 
 ## 🤝 Contributing
